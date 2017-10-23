@@ -24,11 +24,14 @@
       <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
       <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
       <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
-      <%= link_to 'Team Page', 'team.html' %>
+      <%= link_to 'Team Page', 'team.html', class: "navbar-wagon-item navbar-wagon-link" %>
 
       <!-- Profile picture with dropdown list -->
       <div class="navbar-wagon-item">
         <div class="dropdown">
+
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/Eddie2012", class: "avatar dropdown-toggle" %>
+
 
           <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
             <li><a href="#">Profile</a></li>
@@ -46,7 +49,7 @@
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Host</a></li>
           <li><a href="#">Trips</a></li>
-          <li><a href="#">Messagese</a></li>
+          <li><a href="#">Messages</a></li>
         </ul>
       </div>
     </div>
@@ -63,7 +66,7 @@
       <a href="#"><i class="fa fa-linkedin"></i></a>
     </div>
     <div class="footer-copyright">
-      This footer is made with <i class="fa fa-heart"></i> at Le Wagon
+      This footer is made with <i class="fa fa-heart"></i> by Eddie2012
     </div>
   </div>
 </body>
